@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: gold;
+}
+
+body {
+    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.params
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+p
+{
+    text-align: center;
+    margin: 0;
+    display: inline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+textarea {
+    height: 60%;
+    width: 80%;
+}
+

@@ -55,6 +55,7 @@ img {
     display: grid;
     grid-template-rows: 20px 1fr;
     padding: 0 1em 0 0;
+    text-overflow: ellipsis;
 }
 
 img {
