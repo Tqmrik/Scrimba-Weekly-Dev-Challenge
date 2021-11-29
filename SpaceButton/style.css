@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+:root
+{
+    --circle: 300px;
+    --extra: 100px;
+    --dark: hsl(230 35% 7%);
+    --light: #FFFFFF;
+}
+
+/* Make it responsive??? */
+
+body,html
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Bellefair', serif;
+    /* min-height: 100vh; */
+    display: grid;
+    place-content: center;
+    background: var(--dark);
+    width: 100vw;
+}
+
+body
+{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    min-height: 100vh;
+}
+
+header
+{
+    display: flex;
+    background: var(--dark);
+    justify-content: flex-end;
+}
+
+.toggle
+{
+    align-self: center;
+    margin: 0;
+    visibility: hidden;
+}
+
+header > label
+{
+    align-self: center;
+    margin: 2em;
+    width: 50px;
+    height: 30px;
+    background-color: var(--light);
+    border-radius: 15px;
+    display: grid;
+    position: relative;
+    cursor: pointer;
+}
+
+label::after
+{
+    align-self: center;
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--dark);
+    position: absolute;
+    margin: 0 0 0 3px;
+    transition: .5s;
+}
+
+button,
+.buttonBackground
+{
+    background-color: var(--light);
+    padding: 0;
+    width: var(--circle);
+    height: var(--circle);
+    border-radius: 50%;
+    box-sizing: content-box;
+    border: none;
+}
+
+.buttonBackground
+{
+    background-color: #24262F;
+    transition: padding 1.5s;
+    
+}
+
+button{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+
+.buttonBackground:hover
+{
+   padding: var(--extra);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;  
+    cursor: pointer;
+}
+
+input
+{
+    align-self: flex-start;
+    grid-row-start: 1;
+}
+
+.toggle:checked + label::after
+{
+    transform: translate(19px);
+}
+
+
+
+
+
+.light,
+.light label::after
+{
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.light button,
+.light label{
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.light .buttonBackground
+{
+    background-color: #24262f27;
+}

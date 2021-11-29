@@ -5,3 +5,5 @@ For more visit: https://scrimba.com/learn/weeklychallenge/welcome-to-the-weekly-
 RetroScreenSaver: make gradient flow on hover(Optional: allow the user to adjust the start timer; move the orb across the screen)
 
 Dark&LightTheme: make the following elements dark themed: header,h1,card background, card text color, button background, button text color, toggle(Optional: smooth transition, add your own theme)
+
+SpaceButton: make background disc with hover over explore(Optional: add animation(transition??), style button to a light theme, redesign button with own style)
