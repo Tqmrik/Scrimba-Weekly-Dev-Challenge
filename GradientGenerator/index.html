@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container" class="container">
+            <form id="gradient" class="gradient">
+                <div>
+                    <label for="picker-1">Color 1:</label>
+                    <input id="picker-1" type="color" name="color1" value="#b5caf9"/>
+                </div>
+                <div>
+                    <label for="picker-2">Color 2:</label>
+                    <input id="picker-2" type="color" name="color2" value="#aad186"/>
+                </div>
+                <div>
+                    <label for="picker-3">Color 3:</label>
+                    <input id="picker-3" type="color" name="color3" value="#aad186" />
+                </div>
+                <div>
+                    <label for="split">Split:</label>
+                    <input value=50 type="range" id="split" name="split" min="0" max="100">
+                </div>
+            </form>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

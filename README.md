@@ -9,3 +9,5 @@ Dark&LightTheme: make the following elements dark themed: header,h1,card backgro
 SpaceButton: make background disc with hover over explore(Optional: add animation(transition??), style button to a light theme, redesign button with own style)
 
 WordCount: write js so that word count appears on screen as the user types(Optional: display longest word, add spell check, add character count)
+
+GradientGenerator: generate background color using given fields(Optional: add more colors, generate random gradients, check for contrast between the gradient and the text)
