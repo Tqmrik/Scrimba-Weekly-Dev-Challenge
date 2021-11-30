@@ -11,3 +11,5 @@ SpaceButton: make background disc with hover over explore(Optional: add animatio
 WordCount: write js so that word count appears on screen as the user types(Optional: display longest word, add spell check, add character count)
 
 GradientGenerator: generate background color using given fields(Optional: add more colors, generate random gradients, check for contrast between the gradient and the text)
+
+PomodoroTimer: set the timer and countdown(work: 25min; short break: 5min; long break: 25min;)(Optional: add sound effect, display the type of time slot, log total focussed work)
