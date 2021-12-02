@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .adviceEye {
@@ -31,13 +32,16 @@ p {
    transform: translate(-50%, -50%);
 }
 
+textarea,
 button {
     border: none;
     padding: 0.5em 1em;
     margin: 1em;
     border-radius: 5px;
+    vertical-align: middle;
 }
 
 button:hover {
     cursor: pointer;
 }
+
