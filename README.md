@@ -15,3 +15,5 @@ GradientGenerator: generate background color using given fields(Optional: add mo
 PomodoroTimer: set the timer and countdown(work: 25min; short break: 5min; long break: 15min;)(Optional: add sound effect, display the type of time slot, log total focussed work)
 
 Magic8-Ball: display message on button click(Optional: more advices, question input, limit the number of questions asked)
+
+JavaScriptLoader: add spinning(Optional: add timeout, change loader style)
