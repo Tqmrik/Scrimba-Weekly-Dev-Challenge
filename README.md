@@ -17,3 +17,5 @@ PomodoroTimer: set the timer and countdown(work: 25min; short break: 5min; long 
 Magic8-Ball: display message on button click(Optional: more advices, question input, limit the number of questions asked)
 
 JavaScriptLoader: add spinning(Optional: add timeout, change loader style)
+
+NameBeatufier: change font family, color, weight, button color(Optional: check for opacity)
