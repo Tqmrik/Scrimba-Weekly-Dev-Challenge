@@ -1,4 +1,4 @@
-import randomcolor from "randomcolor"
+// import randomCol from '../libs/randomcolor.js'
 
 const fontsArr = [
         "Impact,Charcoal,sans-serif",
@@ -7,6 +7,28 @@ const fontsArr = [
         "Comic Sans MS, cursive",
         "American Typewriter, serif"
     ]
+
+const text = document.getElementById("name")
+const btn = document.getElementById("beautifierBtn")
+
+
+btn.addEventListener("click", function()
+{
+    text.style.fontFamily = fontsArr[Math.floor(Math.random() * fontsArr.length)]
+    text.style.color = randomColOpac()
+    text.style.fontWeight = Math.floor(Math.random() * 9) * 100
+    btn.style.background = text.style.color
+})
+
+function randomCol()
+{
+    return `rgb(${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)})`
+}
+
+function randomColOpac()
+{
+    return `rgb(${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)}, ${Math.random()})`
+}
 
 
 
