@@ -19,3 +19,5 @@ Magic8-Ball: display message on button click(Optional: more advices, question in
 JavaScriptLoader: add spinning(Optional: add timeout, change loader style)
 
 NameBeatufier: change font family, color, weight, button color(Optional: check for opacity)
+
+EnergyMeter: progress bar on clicks(Optional: reduce the energy over the time)

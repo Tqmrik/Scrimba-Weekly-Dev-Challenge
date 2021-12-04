@@ -1,0 +1,22 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="container">
+                <label for="input">How's your energy today?</label>
+                <input id="input" type="number" 
+                min="1" max="10"
+                value="5">
+            
+                       
+                <meter id="energy" 
+                min="0" max="10" 
+                low="3" high="7" optimum="10"
+                value="10"></meter>
+        </div>
+       
+        <script src="index.pack.js"></script>
+    </body>
+</html>
