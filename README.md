@@ -27,3 +27,5 @@ SocialMediaForCats: display pics of cats
 FixTheAccessability: identify and fix the accessability issuess(Optional: customize the form)
 
 TipCalculator: calculate total amount to pay(Optional: add number of people, show tip and total per person)
+
+PricingComponent: see index.css(Optional: add a toggle for monthly or annual prices)
