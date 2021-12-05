@@ -22,5 +22,8 @@ NameBeatufier: change font family, color, weight, button color(Optional: check f
 
 EnergyMeter: progress bar on clicks(Optional: reduce the energy over the time)
 
-SocialMediaForCats: display cats pics 
+SocialMediaForCats: display pics of cats
 
+FixTheAccessability: identify and fix the accessability issuess(Optional: customize the form)
+
+TipCalculator: calculate total amount to pay(Optional: add number of people, show tip and total per person)

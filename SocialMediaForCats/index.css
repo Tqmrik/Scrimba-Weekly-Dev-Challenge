@@ -29,9 +29,9 @@ h1 > span {
 }
 
 img{
-    padding: 1em;
+    margin: 1em;
     border-radius: 2em;
-    height: 70vh;
+    height: 60vh;
 }
 
 .cat-basket > div
